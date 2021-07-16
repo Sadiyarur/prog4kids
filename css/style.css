@@ -26,52 +26,6 @@ h2 {
 .mb1{
 	background-color: Crimson;
 	border-color: DarkRed;
-}
-
-.mb2{
-	background-color: Coral;
-	border-color: OrangeRed;
-}
-
-.mb3{
-	background-color: Gold;
-	border-color: DarkKhaki;
-}
-
-.mb4{
-	background-color: LimeGreen;
-	border-color: DarkGreen;
-}
-
-.mb5{
-	background-color: DarkTurquoise;
-	border-color: SteelBlue;
-}
-
-.mb6{
-	background-color: MediumBlue;
-	border-color: MidnightBlue;
-}
-
-.mb7{
-	background-color: DarkViolet;
-	border-color: Indigo;
-}
-
-.mb8{
-	background-color: SandyBrown;
-	border-color: Maroon;
-}
-
-
-
-body {
-	color: black;
-	align-items: left;
-	margin: 10px;
-}
-
-button {
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -83,6 +37,143 @@ button {
 	border-width: 10px;
 	width: 150px;
 	height: 150px;
+}
+
+.mb2{
+	background-color: Coral;
+	border-color: OrangeRed;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	border-width: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+.mb3{
+	background-color: Gold;
+	border-color: DarkKhaki;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	border-width: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+.mb4{
+	background-color: LimeGreen;
+	border-color: DarkGreen;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	border-width: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+.mb5{
+	background-color: DarkTurquoise;
+	border-color: SteelBlue;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	border-width: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+.mb6{
+	background-color: MediumBlue;
+	border-color: MidnightBlue;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	border-width: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+.mb7{
+	background-color: DarkViolet;
+	border-color: Indigo;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	border-width: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+.mb8{
+	background-color: SandyBrown;
+	border-color: Maroon;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	border-width: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+.h_button{
+	float: right; /* блок занимает ширину содержимого, max-width её ограничивает */
+    max-width: 8em;
+    min-height: 2em;
+	background-color: grey;
+	border-color: darkgray;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-style: bold;
+	border-width: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+body {
+	color: black;
+	align-items: left;
+	margin: 10px;
 }
 
 table {
